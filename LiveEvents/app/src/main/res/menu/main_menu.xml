@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/accueil"
+        android:title="@string/item_accueil"
+        app:showAsAction = "never"
+        android:orderInCategory="100">
+    </item>
+
+    <item android:id="@+id/Billetterie"
+        android:title="@string/item_billetterie"
+        app:showAsAction = "never"
+        android:orderInCategory="100">
+    </item>
+
+    <item android:id="@+id/Partenaire"
+        android:title="@string/item_partenaires"
+        app:showAsAction = "never"
+        android:orderInCategory="100">
+    </item>
+</menu>

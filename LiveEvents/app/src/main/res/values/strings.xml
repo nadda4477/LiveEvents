@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Live Events</string>
+    <string name="item_billetterie">Billetterie</string>
+    <string name="item_accueil">Accueil</string>
+    <string name="item_partenaires">Partenaires</string>
+    <string name="billeterie_text">Pour réserver des places de spectacle et des billets de théâtre en seulement quelques clics.</string>
+</resources>

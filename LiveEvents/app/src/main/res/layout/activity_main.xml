@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/recyclerview"/>
+    <Button
+        android:id="@+id/billeterie_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@id/recyclerview"
+        android:layout_marginBottom="20dp"
+        android:text="BILLETERIE" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_height="250dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/maps"
+        android:layout_below="@id/billeterie_button"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        >
+
+
+    </androidx.fragment.app.FragmentContainerView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/maps"
+        android:layout_marginTop="20dp"
+        android:background="@color/dark_red"
+        >
+
+        <ImageView
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/download"
+            android:id="@+id/facebook"
+            />
+
+        <ImageView
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/instagram"
+            android:id="@+id/instagram"
+            />
+
+        <ImageView
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/tiktop"
+            android:id="@+id/tiktok"
+            />
+        <ImageView
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/twitter"
+            android:id="@+id/twitter"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

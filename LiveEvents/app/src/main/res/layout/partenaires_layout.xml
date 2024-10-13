@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/item_partenaires"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:rowCount="2"
+        android:columnCount="2"
+        tools:context=".MainActivity">
+        <ImageView
+            android:layout_height="90dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img4"
+            />
+
+        <ImageView
+            android:layout_height="90dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img5"
+            />
+
+        <ImageView
+            android:layout_height="90dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img6"
+            />
+
+        <ImageView
+            android:layout_height="90dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img7"
+            />
+
+    </GridLayout>
+</LinearLayout>
